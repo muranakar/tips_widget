@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'tips_widget_2.dart';
-import 'tips_widget_3.dart';
-import 'tips_widget_4.dart';
-import 'tips_widget_5.dart';
-import 'tips_widget_8.dart';
-import 'tips_widget_9.dart';
-import 'tips_widget_10.dart';
+import 'package:tips_widget/tip_animated.dart';
+import 'package:tips_widget/tip_fade.dart';
+import 'tip_snackbar.dart';
+import 'tip_tooltip.dart';
+import 'tip_bottomsheet.dart';
+import 'tip_banner.dart';
+import 'tip_expansiontile.dart';
+import 'tip_popupmenu.dart';
+import 'tip_draggable.dart';
 
 void main() {
   runApp(const MyApp());
@@ -32,13 +34,15 @@ class TipsList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<Map<String, dynamic>> tipsWidgets = [
-      {'title': 'SnackBar Tip', 'widget': const TipsWidget2()},
-      {'title': 'Tooltip Tip', 'widget': const TipsWidget3()},
-      {'title': 'BottomSheet Tip', 'widget': const TipsWidget4()},
-      {'title': 'Banner Tip', 'widget': const TipsWidget5()},
-      {'title': 'ExpansionTile Tip', 'widget': const TipsWidget8()},
-      {'title': 'PopupMenuButton Tip', 'widget': const TipsWidget9()},
-      {'title': 'DraggableScrollableSheet Tip', 'widget': const TipsWidget10()},
+      {'title': 'SnackBar Tip', 'widget': const TipSnackbar()},
+      {'title': 'Tooltip Tip', 'widget': const TipTooltip()},
+      {'title': 'BottomSheet Tip', 'widget': const TipBottomSheet()},
+      {'title': 'Banner Tip', 'widget': const TipBanner()},
+      {'title': 'ExpansionTile Tip', 'widget': const TipExpansionTile()},
+      {'title': 'PopupMenuButton Tip', 'widget': const TipPopupMenu()},
+      {'title': 'DraggableScrollableSheet Tip', 'widget': const TipDraggable()},
+      {'title': 'Animated Tip', 'widget': const TipAnimated()},
+      {'title': 'Fade Tip', 'widget': const TipFade()},
     ];
 
     return Scaffold(

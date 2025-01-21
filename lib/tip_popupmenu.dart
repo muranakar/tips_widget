@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TipsWidget9 extends StatelessWidget {
-  const TipsWidget9({super.key});
+class TipPopupMenu extends StatelessWidget {
+  const TipPopupMenu({super.key});
 
   @override
   Widget build(BuildContext context) {

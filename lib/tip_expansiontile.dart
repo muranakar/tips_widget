@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TipsWidget8 extends StatelessWidget {
-  const TipsWidget8({super.key});
+class TipExpansionTile extends StatelessWidget {
+  const TipExpansionTile({super.key});
 
   @override
   Widget build(BuildContext context) {

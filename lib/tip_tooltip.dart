@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class TipsWidget3 extends StatelessWidget {
-  const TipsWidget3({super.key});
+class TipTooltip extends StatelessWidget {
+  const TipTooltip({super.key});
 
   @override
   Widget build(BuildContext context) {
